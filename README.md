@@ -1,2 +1,2 @@
 # DeepLearning
-Contains deep learning code implementations and examples
+Contains deep learning implementations and examples
