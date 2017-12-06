@@ -1,0 +1,35 @@
+
+
+{
+    "train_h5_file": "/tmp/tr003.h5",
+    "train_h5_label_file": "/tmp/tr003.h5",
+
+    "train_h5_x_key": "train_set_x",
+    "train_h5_y_key": "train_set_y",
+
+    "test_h5_file": "/tmp/te003.h5",
+    "test_h5_label_file": "/tmp/te003.h5",
+    "test_h5_x_key": "test_set_x",
+    "test_h5_y_key": "test_set_y",
+
+    "hold_out_set_accuracy_tests": "yes",
+    "train_set_accuracy_tests": "yes",
+    "test_set_accuracy_tests": "yes",
+
+    "num_train_samples": 167,
+    "num_validation_samples": 42,
+    "num_epochs": 5000,
+    "learning_rate": 0.003,
+    "hold_out_set_percent": 1,
+
+    "num_layers" : 5,
+    "layers_definition": 
+    {
+        "0" : {"dim_0": 12288, "bias": "yes", "activation": "relu" } ,
+        "1" : {"dim_0": 20, "bias": "yes", "activation": "relu" } ,
+        "2" : {"dim_0": 7, "bias": "yes", "activation": "relu" } ,
+        "3" : {"dim_0": 5, "bias": "yes", "activation": "relu" } ,
+        "4" : {"dim_0": 1, "bias": "yes", "activation": "sigmoid" }
+    }
+}
+
